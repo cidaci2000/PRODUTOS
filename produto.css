@@ -1,0 +1,71 @@
+
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+}
+header{
+    background: rgb(75, 72, 72);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(75, 72, 72);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 48px;
+
+    
+}
+
+
+body {font-size: 100%;
+    background: linear-gradient(to right, #0a3b4b 0%, #6c68a5 100%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    
+    
+}
+
+.botao{
+    background-color: darkcyan;
+    width: 180px;
+    height: 60px;    
+    border: none;
+    box-shadow: 4px 5px 4px rgb(19, 64, 148);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 0 0 0 15px;
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    margin: 50px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px;
+}
+.centro{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.image-logo{
+    font-size: 100%;
+}
